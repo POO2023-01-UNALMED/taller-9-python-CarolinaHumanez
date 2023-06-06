@@ -1,4 +1,4 @@
-from tkinter import * 
+from tkinter import *
 import tkinter as tk
 
 # Configuración ventana principal
@@ -37,7 +37,7 @@ def igual(evento):
     elif(lista[1] == "/"):
         result=(primerNumero/SegundoNumero)
 
-    
+
     result=str(result)
     actual = pantalla.get()
     pantalla.delete(0, tk.END)
@@ -46,7 +46,7 @@ def igual(evento):
 
 
 
-# Configuración pantalla de salida 
+# Configuración pantalla de salida
 pantalla = Entry(root, width=22, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
 pantalla.grid(row=0, column=0, columnspan=40, padx=1, pady=1)
 
